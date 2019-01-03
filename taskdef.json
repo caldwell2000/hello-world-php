@@ -1,9 +1,9 @@
 {
-    "family": "myapp",
+    "family": "hello-world",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "myapp",
+            "name": "hello-world",
             "cpu": 10,
             "memory": 256,
             "essential": true,
