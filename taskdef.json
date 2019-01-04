@@ -6,6 +6,8 @@
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
+    "taskRoleArn": "arn:aws:iam::549902048605:role/ecs_task_assume",
+    "executionRoleArn": "arn:aws:iam::549902048605:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
